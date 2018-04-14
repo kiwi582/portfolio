@@ -1,3 +1,10 @@
+/********** COLORS
+
+Wisteria        rgb(140, 68, 178)    #8C44B2
+Green Sea       #4BB39C
+Midnight blue   #2D3E52
+
+**********************************************************************/
 /*** GENERAL ***/
 
 html {
@@ -15,7 +22,13 @@ html {
 
 a {
     text-decoration: none;
+    color: #2D3E52;
 }
+
+a:hover, a:active{
+    color: #8C44B2;
+}
+
 
 li {
     list-style: none;
@@ -30,11 +43,14 @@ h3 {}
 .flex-container {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 
 .row {
     flex-direction: row;
 }
+
+section {}
 
 /******************************************/
 
@@ -44,40 +60,37 @@ header {
     flex: 1;
     flex-basis: 500px;
     flex-grow: 1;
-    background: url(Assets/beleuchtet-elektrizitat-energie-383673.jpg) no-repeat center center;
+    background: black url(Assets/beleuchtet-elektrizitat-energie-383673.jpg) no-repeat center center;
     background-size: cover;
 }
 
-.bio-container {
-    background-color: rgba(180, 100, 250, .5);
-    border-radius: 5%;
+.heading-container {
+    background-color: rgba(140, 68, 178, .3);
     padding: 10px 20px;
-    flex: 1;
-    flex-basis: auto;
-    max-width: 400px;
-    min-height: 190px;
+    flex: 100%;
+    /* min-height: 180px; */
     align-self: center;
     margin-top: 20px;
 }
 
-.buffer {
+/* .buffer {
     flex: 1;
     flex-grow: 2;
 }
-
+*/
 .heading {
     font-size: 72px;
     color: white;
     text-decoration: underline;
     margin: 0 0 36px 0;
     text-align: center;
+    text-transform: uppercase;
 }
 
 .subheading {
-    font-size: 32px;
+    font-size: 36px;
     color: white;
     text-align: center;
-
 }
 
 /******************************************/
@@ -86,16 +99,19 @@ header {
 
 nav {
     flex: 1;
+    border-bottom: 1px solid black;
+    margin-bottom: 30px;
 }
 
 nav .nav-list {
     text-align: right;
-    padding: 10px;
+    padding: 15px;
 }
 
 .nav-item {
     display: inline;
     margin-right: 15px;
+    text-transform: uppercase;
 }
 
 /******************************************/
