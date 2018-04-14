@@ -1,0 +1,82 @@
+/*** GENERAL ***/
+
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font-style: normal;
+    font-weight: 100;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+h1 {}
+
+h2 {}
+
+h3 {}
+
+.flex-container{
+    display:flex;
+}
+.row{
+
+}
+
+/******************************************/
+/*** HEADER ***/
+
+header {}
+
+
+.bio-container {}
+
+.heading {}
+
+.subheading {}
+/******************************************/
+/*** NAVIGATION ***/
+
+nav .nav-list {}
+
+.nav-item {}
+/******************************************/
+/*** ABOUT SECTION ***/
+
+.about {
+
+}
+
+.portrait {
+
+}
+/******************************************/
+/*** PORTFOLIO SECTION ***/
+
+.portfolio {}
+
+.row {}
+
+.project {}
+
+.project-img {}
+
+.project-name {}
+
+.project-description {}
+/******************************************/
+/*** CONTACT INFORMATION ***/
+
+
+/******************************************/
