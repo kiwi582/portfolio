@@ -27,44 +27,88 @@ h2 {}
 
 h3 {}
 
-.flex-container{
-    display:flex;
+.flex-container {
+    display: flex;
+    flex-direction: column;
 }
-.row{
 
+.row {
+    flex-direction: row;
 }
 
 /******************************************/
+
 /*** HEADER ***/
 
-header {}
+header {
+    flex: 1;
+    flex-basis: 500px;
+    flex-grow: 1;
+    background: url(Assets/beleuchtet-elektrizitat-energie-383673.jpg) no-repeat center center;
+    background-size: cover;
+}
 
 
-.bio-container {}
+.bio-container {
+    background-color: rgba(211, 10, 270, .5);
+    border-radius: 5%;
+    padding: 10px 20px;
+    flex: 1;
+    flex-shrink: 1;
+    min-height: 190px;
+    align-self: center;
+    margin-top: 20px;
+}
 
-.heading {}
+.buffer {
+    flex: 1;
+    flex-grow:2;
+}
 
-.subheading {}
+.heading {
+    font-size: 72px;
+    color: white;
+    text-decoration: underline;
+    margin: 0 0 36px 0;
+    text-align: center;
+}
+
+.subheading {
+    font-size: 32px;
+    color: white;
+    text-align: center;
+
+}
+
 /******************************************/
+
 /*** NAVIGATION ***/
+
+nav {
+    flex: 1;
+}
 
 nav .nav-list {}
 
 .nav-item {}
+
 /******************************************/
+
 /*** ABOUT SECTION ***/
 
 .about {
-
+    flex: 1;
 }
 
-.portrait {
+.portrait {}
 
-}
 /******************************************/
+
 /*** PORTFOLIO SECTION ***/
 
-.portfolio {}
+.portfolio {
+    flex: 1;
+}
 
 .row {}
 
@@ -75,8 +119,13 @@ nav .nav-list {}
 .project-name {}
 
 .project-description {}
+
 /******************************************/
+
 /*** CONTACT INFORMATION ***/
 
+.contact {
+    flex: 1;
+}
 
 /******************************************/
